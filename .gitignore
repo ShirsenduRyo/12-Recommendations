@@ -1,0 +1,73 @@
+# =========================
+# Python basics
+# =========================
+__pycache__/
+*.py[cod]
+*.pyo
+*.pyd
+*.so
+
+# =========================
+# Virtual environments
+# =========================
+.venv/
+venv/
+env/
+
+# =========================
+# Build / packaging
+# =========================
+build/
+dist/
+*.egg-info/
+
+# =========================
+# Logs & experiment outputs
+# =========================
+logs/
+outputs/
+results/
+experiments/
+wandb/
+tensorboard/
+runs/
+
+# Specific to your project
+01_offline_sac/logs/
+01_offline_sac/checkpoints/
+01_offline_sac/outputs/
+
+# =========================
+# Checkpoints / models
+# =========================
+*.pt
+*.pth
+*.ckpt
+*.pkl
+
+# =========================
+# Datasets (important for D4RL)
+# =========================
+data/
+datasets/
+*.hdf5
+*.npz
+
+# =========================
+# Jupyter
+# =========================
+.ipynb_checkpoints/
+
+# =========================
+# IDE / OS
+# =========================
+.vscode/
+.idea/
+.DS_Store
+Thumbs.db
+
+# =========================
+# Misc
+# =========================
+*.log
+*.tmp

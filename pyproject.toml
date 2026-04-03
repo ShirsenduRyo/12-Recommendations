@@ -1,0 +1,23 @@
+[project]
+name = "offline-rl"
+version = "0.1.0"
+description = "Offline RL experiments (CQL / SAC)"
+readme = "README.md"
+requires-python = "==3.10.*"
+
+dependencies = [
+    "gymnasium[mujoco]",
+    "minari",
+    "tensorboard",
+    "wandb",
+    "h5py",
+    "ipykernel>=7.2.0",
+]
+
+[tool.uv]
+index-url = "https://pypi.org/simple"
+extra-index-url = ["https://download.pytorch.org/whl/cu121"]
+
+[build-system]
+requires = ["setuptools", "wheel"]
+build-backend = "setuptools.build_meta"
