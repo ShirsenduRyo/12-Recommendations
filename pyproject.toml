@@ -1,17 +1,21 @@
 [project]
-name = "offline-rl"
+name = "ope-research"
 version = "0.1.0"
-description = "Offline RL experiments (CQL / SAC)"
+description = "Off-Policy Evaluation Research Framework"
 readme = "README.md"
+authors = [
+    {name = "Shirsendu Dhar"}
+]
 requires-python = "==3.10.*"
 
 dependencies = [
-    "gymnasium[mujoco]",
-    "minari",
-    "tensorboard",
-    "wandb",
-    "h5py",
-    "ipykernel>=7.2.0",
+    "numpy",
+    "pandas",
+    "scikit-learn",
+    "matplotlib",
+    "hydra-core",
+    "omegaconf",
+    "ipykernel>=7.2.0"
 ]
 
 [tool.uv]
